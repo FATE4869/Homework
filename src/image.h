@@ -60,6 +60,8 @@ image get_channel(image im, int c);
 int same_image(image a, image b, float eps);
 image sub_image(image a, image b);
 image add_image(image a, image b);
+//Extra credit
+void scale_image(image im, int c, float v);
 
 // Loading and saving
 image make_image(int w, int h, int c);
